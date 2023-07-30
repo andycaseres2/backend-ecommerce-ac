@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@vercel/node": "^2.15.6",
     "body-parse": "^0.1.0",
     "class-validator": "^0.14.0",
     "concurrently": "^8.2.0",
