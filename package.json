@@ -1,4 +1,10 @@
-{
+{ "name": "backend-ecommerce-ac",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/andycaseres2/backend-ecommerce-ac.git",
+  "author": "Andy Caseres <andycaseres2@gmail.com>",
+  "license": "MIT",
+
   "dependencies": {
     "@vercel/node": "^2.15.6",
     "body-parse": "^0.1.0",
@@ -18,6 +24,7 @@
   },
   "scripts": {
     "dev": "concurrently \"nodemon -q src/index.ts\"",
-    "build": "tsc"
+    "build": "echo \"🔍 Building...\" && tsc && echo \"✅ Build realizado con éxito.\""
   }
+
 }
