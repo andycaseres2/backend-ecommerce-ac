@@ -1,10 +1,11 @@
-{ "name": "backend-ecommerce-ac",
+{
+  "$schema": "https://json.schemastore.org/package.json",
+  "name": "backend-ecommerce-ac",
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/andycaseres2/backend-ecommerce-ac.git",
   "author": "Andy Caseres <andycaseres2@gmail.com>",
   "license": "MIT",
-
   "dependencies": {
     "@vercel/node": "^2.15.6",
     "body-parse": "^0.1.0",
@@ -20,11 +21,12 @@
   "devDependencies": {
     "@types/cors": "^2.8.13",
     "@types/express": "^4.17.17",
-    "@types/mongoose": "^5.11.97"
+    "@types/mongoose": "^5.11.97",
+    "babel-cli": "^6.26.0"
   },
   "scripts": {
     "dev": "concurrently \"nodemon -q src/index.ts\"",
-    "build": "echo \"🔍 Building...\" && tsc && echo \"✅ Build realizado con éxito.\""
+    "build": "echo \"🔍 Building...\" && tsc && echo \"✅ Build realizado con éxito.\"",
+    "build2": "npx babel src --out-dir dist"
   }
-
 }
