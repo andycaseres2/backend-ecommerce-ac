@@ -1,8 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.ProductEntity = void 0;
-var ProductEntity = /** @class */ (function () {
-    function ProductEntity(title, description, price, image, category, stock, likes) {
+class ProductEntity {
+    constructor(title, description, price, image, category, stock, likes) {
         this.title = title;
         this.description = description;
         this.price = price;
@@ -11,6 +11,6 @@ var ProductEntity = /** @class */ (function () {
         this.stock = stock;
         this.likes = likes;
     }
-    return ProductEntity;
-}());
+}
 exports.ProductEntity = ProductEntity;
+//# sourceMappingURL=product.entity.js.map

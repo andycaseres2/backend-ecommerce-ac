@@ -19,3 +19,4 @@ __exportStar(require("./index"), exports);
 __exportStar(require("./product.entity"), exports);
 __exportStar(require("./product.interface"), exports);
 __exportStar(require("./product.model"), exports);
+//# sourceMappingURL=index.js.map
