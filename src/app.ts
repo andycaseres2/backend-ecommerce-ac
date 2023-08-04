@@ -21,6 +21,5 @@ app.use("/api", routes);
 initMongoConnection();
 
 //RUNNING SERVER
-app.listen(5000, () => {
-  console.log("listening on port 5000");
-});
+
+module.exports = app;
