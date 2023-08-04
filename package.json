@@ -25,6 +25,6 @@
   },
   "scripts": {
     "dev": "concurrently \"nodemon -q src/index.ts\"",
-    "build": "echo \"🔍 Building...\" && tsc && echo \"✅ Build realizado con éxito.\""
+    "build": "echo \"🔍 Building...\" && tsc -p . --outDir dist && echo \"✅ Build realizado con éxito.\""
   }
 }

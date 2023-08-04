@@ -1,4 +1,4 @@
-import express, { json } from "express";
+import express from "express";
 import cors from "cors";
 import { initMongoConnection } from "./config";
 import { routes } from "./routes/routes";
@@ -8,7 +8,7 @@ const app = express();
 
 //MIDDLEWARES
 app.use(cors());
-app.use(json());
+app.use(express.json());
 
 //ROUTES
 app.get("/test", (req, res) => {
