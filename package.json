@@ -21,12 +21,10 @@
   "devDependencies": {
     "@types/cors": "^2.8.13",
     "@types/express": "^4.17.17",
-    "@types/mongoose": "^5.11.97",
-    "babel-cli": "^6.26.0"
+    "@types/mongoose": "^5.11.97"
   },
   "scripts": {
     "dev": "concurrently \"nodemon -q src/index.ts\"",
-    "build": "echo \"🔍 Building...\" && tsc && echo \"✅ Build realizado con éxito.\"",
-    "build2": "npx babel src --out-dir dist"
+    "build": "echo \"🔍 Building...\" && tsc && echo \"✅ Build realizado con éxito.\""
   }
 }
